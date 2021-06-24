@@ -4,12 +4,13 @@
   "description": "Mern Stack Project from https://www.youtube.com/watch?v=H1BebGmRjzE&list=PLKhlp2qtUcSYC7EffnHzD-Ws2xG-j3aYo&index=4&ab_channel=RoadsideCoder",
   "main": "server.js",
   "scripts": {
-    "start": "node backend/server.js"
+    "start": "nodemon backend/server.js"
   },
   "author": "Snehashis Ghosh",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^10.0.0",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7"
   }
 }
